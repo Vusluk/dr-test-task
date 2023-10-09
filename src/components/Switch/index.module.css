@@ -1,0 +1,31 @@
+.root {
+    display: grid;
+    grid-template-rows: 48px;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    width: 100%;
+    border-radius: 16px;
+    background-color: #F4F4F4;
+    margin: 4px 0;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    cursor: pointer;
+    transition: all 150ms;
+    border-radius: 16px;
+}
+
+.option_selected {
+    height: calc(100% + 8px);
+    margin-top: -4px;
+    background-color: #252628;
+    color: white;
+}
